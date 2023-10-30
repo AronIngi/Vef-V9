@@ -25,7 +25,7 @@ const products = [
 /** Bæta vöru í körfu */
 function addProductToCart(product, quantity) {
   // Hér þarf að finna `<tbody>` í töflu og setja `cartLine` inn í það
-  const cart = document.querySelector('.cart-content');
+  const cart = document.querySelector('.tablebody');
 
   if (!cart) {
     console.warn('fann ekki .cart');
