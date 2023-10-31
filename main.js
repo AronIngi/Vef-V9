@@ -41,7 +41,7 @@ function addProductToCart(product, quantity) {
 
   // TODO sýna/uppfæra samtölu körfu
 }
-let cartId = 0;
+let cartId = 2;
 function submitHandler(event) {
   // Komum í veg fyrir að form submiti
   event.preventDefault();
