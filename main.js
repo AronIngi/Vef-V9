@@ -41,7 +41,6 @@ function addProductToCart(product, quantity) {
 
   // TODO sýna/uppfæra samtölu körfu
 }
-
 function submitHandler(event) {
   // Komum í veg fyrir að form submiti
   event.preventDefault();
@@ -58,7 +57,7 @@ function submitHandler(event) {
   // TODO hér þarf að finna fjölda sem á að bæta við körfu með því að athuga
   // á input
   const quantity = 1;
-
+  
   // Bætum vöru í körfu (hér væri gott að bæta við athugun á því að varan sé til)
   addProductToCart(product, quantity);
 }
